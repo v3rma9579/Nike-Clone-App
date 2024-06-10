@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nike-clone-app/static/css/main.c73322c7.css",
+    "main.js": "/nike-clone-app/static/js/main.ea3db02d.js",
+    "static/js/453.08ffa912.chunk.js": "/nike-clone-app/static/js/453.08ffa912.chunk.js",
+    "static/media/Screenshot 2024-06-08 163313.png": "/nike-clone-app/static/media/Screenshot 2024-06-08 163313.4d3ace713563a643841f.png",
+    "static/media/Screenshot 2024-06-08 192905.png": "/nike-clone-app/static/media/Screenshot 2024-06-08 192905.518fb89dd593f11e5d36.png",
+    "static/media/logo_nike.png": "/nike-clone-app/static/media/logo_nike.f50ca2e8234966cad681.png",
+    "static/media/search.png": "/nike-clone-app/static/media/search.685d9e3e9ad7c5684b1f.png",
+    "static/media/people.png": "/nike-clone-app/static/media/people.16c0763d06b7d84bf9b6.png",
+    "index.html": "/nike-clone-app/index.html",
+    "main.c73322c7.css.map": "/nike-clone-app/static/css/main.c73322c7.css.map",
+    "main.ea3db02d.js.map": "/nike-clone-app/static/js/main.ea3db02d.js.map",
+    "453.08ffa912.chunk.js.map": "/nike-clone-app/static/js/453.08ffa912.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c73322c7.css",
+    "static/js/main.ea3db02d.js"
+  ]
+}
