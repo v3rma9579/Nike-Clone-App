@@ -36,3 +36,71 @@ code {
 .underline-animation:hover::after {
   transform: translateX(0%);
 }
+
+
+.media-scroller {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px; 
+  padding: 16px; 
+}
+
+.media-scroller > div {
+  flex: 0 0 auto;
+  margin-left: 10px;
+  scroll-snap-align: center;
+}
+
+.media-scroller img {
+  display: block;
+  height: 500px;
+  width: 450px;
+  
+}
+
+
+.media-scroller-phone {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px; 
+  padding: 16px; 
+}
+
+.media-scroller-phone > div {
+  flex: 0 0 auto;
+  margin-left: 10px;
+  scroll-snap-align: center;
+}
+
+.media-scroller-phone img {
+  display: block;
+  height: 300px;
+  width: 270px;
+  
+}
+
+
+.media-scroller-phone-featured {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px; 
+  padding: 16px; 
+}
+
+.media-scroller-phone-featured > div {
+  flex: 0 0 auto;
+  margin-left: 10px;
+  scroll-snap-align: center;
+}
+
+.media-scroller-phone-featured img {
+  display: block;
+  height: 400px;
+  width: 320px;
+  
+}
+
+

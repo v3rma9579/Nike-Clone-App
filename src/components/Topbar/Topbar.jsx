@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import logo from '../assests/logo_nike.png'
 import nikeLogo from '../assests/nike_logo2.jpg'
 import heart from '../assests/heart.png'
@@ -11,11 +11,17 @@ import arrowRight from '../assests/next.png'
 
 function Topbar() {
 
-      const navDialog = document.getElementById('nav-dialog');
+      const [showmenu, setShowMenu] = useState(false);
 
-      function handleMenu() {
-            navDialog.classList.toggle('hidden')
+
+
+      function toggleMenu() {
+            setShowMenu(prev => !prev)
       }
+
+
+
+
       return (
             <>
                   <div className="hidden md:block">
@@ -78,13 +84,13 @@ function Topbar() {
                                           <img className="w-6 h-6 cursor-pointer" src={bag} alt="" />
                                     </div>
                                     <div className="w-10 h-10 mr-10 hover:bg-slate-400 rounded-full flex items-center justify-center">
-                                          <button onClick={handleMenu}><img className="w-6 h-6 cursor-pointer" src={hamBurger} alt="" /> </button>
+                                          <button id="hamburger" onClick={toggleMenu}><img className="w-6 h-6 cursor-pointer" src={hamBurger} alt="" /> </button>
                                     </div>
                               </div>
 
-                              <div id="nav-dialog" className="fixed bg-white w-[65%] h-full top-[0%] right-[0%]">
+                              <div id="nav-dialog" className={showmenu ? "fixed bg-white w-[65%] h-full top-[0%] right-[0%]" : "fixed hidden bg-white w-[65%] h-full top-[0%] right-[0%]"}   >
                                     <div className="flex items-center justify-end mt-6 mr-2 ">
-                                          <button onClick={handleMenu}><img className="w-6 h-6 mr-0 hover:bg-gray-300 rounded-full" src={cancel} alt="" /></button>
+                                          <button onClick={toggleMenu}><img className="w-6 h-6 mr-0 hover:bg-gray-300 rounded-full" src={cancel} alt="" /></button>
                                     </div>
 
                                     <div>
@@ -120,13 +126,17 @@ function Topbar() {
                                                 <img className="w-6 h-6" src={logo} alt="" />
                                                 <a className="text-xl font-semibold" href="">Jordan</a>
                                           </div>
-                                    </div>
 
+                                          <div className='flex items-center mt-10'>
+                                                <p>Become a Nike Member for the best products, inspiration and stories in sport.</p>
+                                          </div>
+                                    </div>
                               </div>
                         </nav>
                   </div>
             </>
       )
 }
+
 
 export default Topbar
