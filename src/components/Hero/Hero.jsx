@@ -9,7 +9,7 @@ function HeroSection() {
                         <div className="hidden md:block">
                               <div className="bg-gray-200 h-20 flex justify-center flex-col">
                                     <p>New Styles on Sale: Up to 40 % Off</p>
-                                    <a className="text-[0.9rem] underline font-semibold" href="">Shop All Our New Markdowns</a>
+                                    <a className="text-[0.9rem] underline font-semibold" href="#">Shop All Our New Markdowns</a>
                               </div>
                               <div className="mt-0">
                                     <img className="px-8 cursor-pointer" src={poster} alt="" />
@@ -19,7 +19,7 @@ function HeroSection() {
                         <div className="md:hidden">
                               <div className="bg-gray-200 h-20 flex justify-center flex-col">
                                     <p>New Styles on Sale: Up to 40 % Off</p>
-                                    <a className="text-[0.9rem] underline font-semibold" href="">Shop All Our New Markdowns</a>
+                                    <a className="text-[0.9rem] underline font-semibold" href="#">Shop All Our New Markdowns</a>
                               </div>
                               <div className="mt-0">
                                     <img className="px-8 cursor-pointer" src={posterMobile} alt="" />

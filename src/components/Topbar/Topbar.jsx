@@ -31,10 +31,10 @@ function Topbar() {
                               </div>
 
                               <div className="flex gap-6 mr-14 font-semibold">
-                                    <a className="text-[14px] hover:text-gray-500 " href="">Find a store</a>
-                                    <a className="text-[14px] hover:text-gray-500" href="">Help</a>
-                                    <a className="text-[14px] hover:text-gray-500" href="">Join Us</a>
-                                    <a className="text-[14px] hover:text-gray-500" href="">Sign In</a>
+                                    <a className="text-[14px] hover:text-gray-500 " href="#">Find a store</a>
+                                    <a className="text-[14px] hover:text-gray-500" href="#">Help</a>
+                                    <a className="text-[14px] hover:text-gray-500" href="#">Join Us</a>
+                                    <a className="text-[14px] hover:text-gray-500" href="#">Sign In</a>
                               </div>
                         </nav>
 
@@ -44,13 +44,13 @@ function Topbar() {
                               </div>
 
                               <div className="flex gap-10 font-semibold">
-                                    <a className="underline-animation" href="">New & Featured</a>
-                                    <a className="underline-animation" href="">Men</a>
-                                    <a className="underline-animation" href="">Women</a>
-                                    <a className="underline-animation" href="">Kids</a>
-                                    <a className="underline-animation" href="">Sale</a>
-                                    <a className="underline-animation" href="">Customize</a>
-                                    <a className="underline-animation" href="">SNKRS</a>
+                                    <a className="underline-animation" href="#">New & Featured</a>
+                                    <a className="underline-animation" href="#">Men</a>
+                                    <a className="underline-animation" href="#">Women</a>
+                                    <a className="underline-animation" href="#">Kids</a>
+                                    <a className="underline-animation" href="#">Sale</a>
+                                    <a className="underline-animation" href="#">Customize</a>
+                                    <a className="underline-animation" href="#">SNKRS</a>
                               </div>
 
                               <div className="flex gap-2 items-center">

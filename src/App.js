@@ -5,6 +5,7 @@ import Trending from './components/Trending/Trending';
 import Collection from './components/Collections/Collection';
 import Featured from './components/Featured/Featured';
 import Spotlight from './components/Spotlight/Spotlight';
+import Menu from './components/Menu/Menu';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div>
         <Spotlight />
+      </div>
+      <div>
+        <Menu />
       </div>
       
     </div>
