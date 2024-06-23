@@ -31,10 +31,10 @@ function Topbar() {
                               </div>
 
                               <div className="flex gap-6 mr-14 font-semibold">
-                                    <a className="text-[14px] hover:text-gray-500 " href="#">Find a store</a>
-                                    <a className="text-[14px] hover:text-gray-500" href="#">Help</a>
-                                    <a className="text-[14px] hover:text-gray-500" href="#">Join Us</a>
-                                    <a className="text-[14px] hover:text-gray-500" href="#">Sign In</a>
+                                    <a className="text-[14px] hover:text-gray-500 " href="/#">Find a store</a>
+                                    <a className="text-[14px] hover:text-gray-500" href="/#">Help</a>
+                                    <a className="text-[14px] hover:text-gray-500" href="/#">Join Us</a>
+                                    <a className="text-[14px] hover:text-gray-500" href="/#">Sign In</a>
                               </div>
                         </nav>
 
@@ -44,13 +44,13 @@ function Topbar() {
                               </div>
 
                               <div className="flex gap-10 font-semibold">
-                                    <a className="underline-animation" href="#">New & Featured</a>
-                                    <a className="underline-animation" href="#">Men</a>
-                                    <a className="underline-animation" href="#">Women</a>
-                                    <a className="underline-animation" href="#">Kids</a>
-                                    <a className="underline-animation" href="#">Sale</a>
-                                    <a className="underline-animation" href="#">Customize</a>
-                                    <a className="underline-animation" href="#">SNKRS</a>
+                                    <a className="underline-animation" href="/#">New & Featured</a>
+                                    <a className="underline-animation" href="/#">Men</a>
+                                    <a className="underline-animation" href="/#">Women</a>
+                                    <a className="underline-animation" href="/#">Kids</a>
+                                    <a className="underline-animation" href="/#">Sale</a>
+                                    <a className="underline-animation" href="/#">Customize</a>
+                                    <a className="underline-animation" href="/#">SNKRS</a>
                               </div>
 
                               <div className="flex gap-2 items-center">
@@ -95,36 +95,36 @@ function Topbar() {
 
                                     <div>
                                           <div className="ml-10 mt-12 flex items-center justify-between">
-                                                <a className="text-xl font-semibold hover:text-gray-600" href="">New & Featured</a>
+                                                <a className="text-xl font-semibold hover:text-gray-600" href="/#">New & Featured</a>
                                                 <img className="w-5 h-5 mr-2 cursor-pointer hover:text-gray-600" src={arrowRight} alt="" />
                                           </div>
                                           <div className="ml-10 mt-6 flex items-center justify-between">
-                                                <a className="text-xl font-semibold hover:text-gray-600" href="">Men</a>
+                                                <a className="text-xl font-semibold hover:text-gray-600" href="/#">Men</a>
                                                 <img className="w-5 h-5 mr-2 cursor-pointer" src={arrowRight} alt="" />
                                           </div>
                                           <div className="ml-10 mt-6 flex items-center justify-between">
-                                                <a className="text-xl font-semibold hover:text-gray-600" href="">Women</a>
+                                                <a className="text-xl font-semibold hover:text-gray-600" href="/#">Women</a>
                                                 <img className="w-5 h-5 mr-2 cursor-pointer" src={arrowRight} alt="" />
                                           </div>
                                           <div className="ml-10 mt-6 flex items-center justify-between">
-                                                <a className="text-xl font-semibold hover:text-gray-600" href="">Kids</a>
+                                                <a className="text-xl font-semibold hover:text-gray-600" href="/#">Kids</a>
                                                 <img className="w-5 h-5 mr-2 cursor-pointer" src={arrowRight} alt="" />
                                           </div>
                                           <div className="ml-10 mt-6 flex items-center justify-between">
-                                                <a className="text-xl font-semibold hover:text-gray-600" href="">Sale</a>
+                                                <a className="text-xl font-semibold hover:text-gray-600" href="/#">Sale</a>
                                                 <img className="w-5 h-5 mr-2 cursor-pointer" src={arrowRight} alt="" />
                                           </div>
                                           <div className="ml-10 mt-6 flex items-center justify-between">
-                                                <a className="text-xl font-semibold" href="">Customise</a>
+                                                <a className="text-xl font-semibold" href="/#">Customise</a>
                                           </div>
                                           <div className="ml-10 mt-6 flex items-center justify-between">
-                                                <a className="text-xl font-semibold" href="">SNKRS</a>
+                                                <a className="text-xl font-semibold" href="/#">SNKRS</a>
                                           </div>
 
 
                                           <div className="flex items-center ml-8 mt-16 gap-4">
                                                 <img className="w-6 h-6" src={logo} alt="" />
-                                                <a className="text-xl font-semibold" href="">Jordan</a>
+                                                <a className="text-xl font-semibold" href="/#">Jordan</a>
                                           </div>
 
                                           <div className='flex items-center mt-10'>
