@@ -1,5 +1,5 @@
 import './App.css';
-import Topbar from '../src/components/Topbar/Topbar'
+import Topbar from './components/Topbar/Topbar'
 import HeroSection from './components/Hero/Hero';
 import Trending from './components/Trending/Trending';
 import Collection from './components/Collections/Collection';
