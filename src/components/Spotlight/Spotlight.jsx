@@ -12,12 +12,15 @@ function Spotlight() {
                   </div>
 
                   <div className='hidden md:block'>
+                        <div className='media-scroller-spotlight'>
                         <div className='flex gap-5 ml-10 mt-6'>
                               <img className='h-[460px]' src={s1} alt="" />
                               <img className='h-[460px]' src={s2} alt="" />
                               <img className='h-[460px]' src={s3} alt="" />
                               <img className='h-[460px]' src={s4} alt="" />
                         </div>
+                        </div>
+                        
                   </div>
 
 

@@ -103,4 +103,24 @@ code {
   
 }
 
+.media-scroller-spotlight {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footerMenu button {
+  margin-bottom: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 

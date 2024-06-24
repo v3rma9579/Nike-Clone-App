@@ -6,7 +6,8 @@ import Collection from './components/Collections/Collection';
 import Featured from './components/Featured/Featured';
 import Spotlight from './components/Spotlight/Spotlight';
 import Menu from './components/Menu/Menu';
-
+import MobileDropdown from './components/Menu/MenuMobile';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -31,6 +32,12 @@ function App() {
       </div>
       <div>
         <Menu />
+      </div>
+      <div>
+        <MobileDropdown />
+      </div>
+      <div>
+        <Footer />
       </div>
       
     </div>
