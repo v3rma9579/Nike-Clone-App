@@ -8,6 +8,7 @@ import Spotlight from './components/Spotlight/Spotlight';
 import Menu from './components/Menu/Menu';
 import MobileDropdown from './components/Menu/MenuMobile';
 import Footer from './components/Footer/Footer';
+import FooterMobile from './components/Footer/FooterMobile';
 
 function App() {
   return (
@@ -21,23 +22,26 @@ function App() {
       <div className='featured'>
         <Featured />
       </div>
-      <div>
+      <div className='collection'>
         <Collection />
       </div> 
       <div className='trending'>
         <Trending />
       </div>
-      <div>
+      <div className='spotlight'>
         <Spotlight />
       </div>
-      <div>
+      <div className='menu'>
         <Menu />
       </div>
-      <div>
+      <div className='mobileMenu'>
         <MobileDropdown />
       </div>
-      <div>
+      <div className='footer'>
         <Footer />
+      </div>
+      <div className='mobileFooter'>
+        <FooterMobile />
       </div>
       
     </div>
